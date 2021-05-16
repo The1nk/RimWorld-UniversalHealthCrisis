@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Universal Health Crisis</name>
+	<author>The1nk</author>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>The1nk.UniversalHealthCrisis</packageId>
+	<description>Have a universal health crisis! Limit the capacities of your colonists, animals, friends, and enemies! Completely customizable!</description>
+  <modDependencies />
+</ModMetaData>

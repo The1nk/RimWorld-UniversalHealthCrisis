@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LanguageData>
+  <Chance>Chance this will occur: {0}</Chance>
+  <MinCap>Minimum capacity %: {0}</MinCap>
+  <MaxCap>Maximum capacity %: {0}</MaxCap>
+
+  <Humanlikes>Humanlikes?</Humanlikes>
+  <Animals>Animals?</Animals>
+  <Factionless>Include Factionless?</Factionless>
+  <MyColony>Include My Colony?</MyColony>
+  <FriendlyFactions>Include Friendly Factions?</FriendlyFactions>
+  <NeutralFactions>Include Neutral Factions?</NeutralFactions>
+  <HostileFactions>Include Hostile Factions?</HostileFactions>
+  <PainlessScars>Painless scars?</PainlessScars>
+
+  <Summary>Universal Health Crisis: {0} chance for {4} to be (potentially painfully) reduced to {1}-{2}. Affects the following: {3}</Summary>
+  <SummaryPainless>Universal Health Crisis: {0} chance for {4} to be (painlessly) reduced to {1}-{2}. Affects the following: {3}</SummaryPainless>
+</LanguageData>

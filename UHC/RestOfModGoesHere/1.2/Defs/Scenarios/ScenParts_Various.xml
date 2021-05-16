@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ScenPartDef>
+    <defName>Uhc</defName>
+    <label>universal health crisis</label>
+    <scenPartClass>The1nk.UniversalHealthCrisis.ScenPart_Uhc</scenPartClass>
+    <category>Misc</category>
+    <selectionWeight>1.0</selectionWeight>
+    <summaryPriority>105</summaryPriority>
+  </ScenPartDef>
+</Defs>
