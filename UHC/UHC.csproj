@@ -60,7 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="RestOfModGoesHere\1.2\Defs\Scenarios\ScenParts_Various.xml">
+    <Content Include="RestOfModGoesHere\1.3\Defs\Scenarios\ScenParts_Various.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="RestOfModGoesHere\About\About.xml">
@@ -79,10 +79,10 @@
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>mkdir $(TargetDir)RestOfModGoesHere\1.2\Assemblies
-copy $(TargetPath) $(TargetDir)RestOfModGoesHere\1.2\Assemblies
-rmdir /S /Q "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UHC"
-mkdir "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UHC"
-xcopy $(TargetDir)RestOfModGoesHere\*.* "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UHC" /E</PostBuildEvent>
+    <PostBuildEvent>mkdir $(TargetDir)RestOfModGoesHere\1.3\Assemblies
+      copy $(TargetPath) $(TargetDir)RestOfModGoesHere\1.3\Assemblies
+      rmdir /S /Q "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UHC"
+      mkdir "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UHC"
+      xcopy $(TargetDir)RestOfModGoesHere\*.* "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\UHC" /E</PostBuildEvent>
   </PropertyGroup>
 </Project>
